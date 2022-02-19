@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1, header a {
+    color: black;
+    text-decoration: none;
+    padding-left: 50px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+header nav {
+    padding-right: 25px;
+    
+}
