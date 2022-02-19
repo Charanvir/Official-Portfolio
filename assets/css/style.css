@@ -15,6 +15,7 @@ body {
     background-color: var(--primary-color);
 }
 
+/* Header Styling */
 
 header {
     display: flex;
@@ -24,15 +25,14 @@ header {
 }
 
 header h1 {
-    background-color: var(--quaternary-color);
+    /* background-color: var(--quaternary-color); */
     padding: 5px 5px 5px 50px;
-    margin-left: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 header h1, header a {
-    padding-left: 50px;
+    padding-left: 20px;
 }
 
 header a {
@@ -51,12 +51,48 @@ header nav {
     font-size: 20px;
 }
 
-/* header nav ul li a {
+header nav ul li a {
     text-decoration: underline;
     text-underline-offset: 5px;
-} */
+}
 
-header nav ul li span {
-    border-bottom: 1px solid;
-    padding-bottom: 2px;
+/* Hero Image Styling */
+
+.mainImage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    background-image: url(../images/heroImage.jpeg);
+    background-size: 100%;
+    width: auto;
+    height: 200px;
+}
+
+.mainImage h2 {
+    color: var(--tertiary-color);
+    font-size: 3rem;
+}
+
+/* About Me Section Styling */
+
+.aboutMe {
+    display: flex;
+    width: 90%;
+    margin: 10px auto;
+    justify-content: space-evenly;
+}
+
+.aboutMe-header {
+    box-sizing: border-box;
+    flex-basis: 25%;
+    background-color: aqua;
+    margin: auto;
+}
+
+.aboutMe-paragraph {
+    box-sizing: border-box;
+    flex-basis: 70%;
+    background-color: burlywood;
+    margin: auto;
 }
