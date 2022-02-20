@@ -142,10 +142,49 @@ header nav ul li a {
 }
 
 .project-5 {
+    flex-basis: 75%;
     display: flex;
-    flex-basis: 70%;
+    flex-direction: column;
 }
 
+.mainProject {
+    border: 5px solid var(--primary-color);
+    margin: 0 20px 20px 20px;   
+}
+
+.mainProject img {
+    width: 100%;
+    height: 100%;
+    opacity: 75%;
+}
+
+.twoProjects-1 {
+    margin: 0px 20px 20px 20px; 
+    display: flex;
+    align-items: center; 
+
+}
+
+.twoProjects-1 img {
+    width: 90%;
+    height: 100%;
+    border: 5px solid var(--primary-color);
+    opacity: 75%;
+
+}
+
+.twoProjects-2 {
+    margin: 0px 20px 20px 20px; 
+    display: flex;
+    align-items: center; 
+}
+
+.twoProjects-2 img {
+    width: 90%;
+    height: 100%;
+    border: 5px solid var(--primary-color);
+    opacity: 75%;
+}
 
 
 
