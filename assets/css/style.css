@@ -90,7 +90,8 @@ header nav ul li a {
     display: flex;
     width: 90%;
     margin: 30px auto;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    background-color: lightcyan;
 }
 
 .aboutMe-header {
@@ -118,5 +119,94 @@ header nav ul li a {
     margin: auto;
     font-family: var(--paragraphFont);
     color: var(--quaternary-color);
+    font-size: 1.5vw;
+}
+
+/* Styling for Project Section */
+
+.project {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    /* justify-content: space-evenly; */
+    background-color: lightcyan;
+}
+
+.project-header {
+    box-sizing: border-box;
+    flex-basis: 25%;
+    /* font-family: (--headerFont); */
+    font-size: 2.5vw;
+    display: flex;
+    border-right: 5px solid var(--primary-color);
+    padding-right: 10px;
+    justify-content: flex-end;
+}
+
+.project-header h2 {
+    color: var(--primary-color);
+    font-family: var(--headerFont);
+}
+
+.project-5 {
+    display: flex;
+    flex-basis: 70%;
+}
+
+
+
+
+
+/* Contact Information Styling */
+
+.contactInfo {
+    display: flex;
+    width: 90%;
+    margin: 30px auto;
+    /* justify-content: space-evenly; */
+    background-color: lightcyan;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contactInfo-header {
+    box-sizing: border-box;
+    flex-basis: 25%;
+    font-family: var(--headerFont);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.5vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: 5px solid var(--primary-color);
+    padding-right: 10px;
+}
+
+.contactInfo-header h2 {
+    color: var(--primary-color);
+    font-family: var(--headerFont);
+}
+
+/* .contactInfo-links ul {
+    box-sizing: border-box;
+    flex-basis: 70%;
+    background-color: burlywood; 
+    margin: auto;
+    font-family: var(--paragraphFont);
+    color: var(--quaternary-color);
+    font-size: 1.5vw;
+    display: flex;
+} */
+
+.contactInfo-links ul {
+    display: flex;
+    list-style-type: none;
+    flex: 0 0 auto;
+}
+
+.contactInfo-links ul li a {
+    padding-left: 50px;
+    font-family: var(--paragraphFont);
     font-size: 1.5vw;
 }
