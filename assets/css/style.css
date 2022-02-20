@@ -1,8 +1,11 @@
 :root {
-    --primary-color: rgba(154, 230, 227, 0.5);
+    --primary-color: rgba(154, 230, 227, 1.0);
     --secondary-color: rgba(230, 154, 157, 0.75);
-    --tertiary-color: rgba(230, 227, 154, 0.5);
-    --quaternary-color: rgba(154, 157, 230, 0.5);
+    --tertiary-color: rgba(230, 227, 154, 0.8);
+    --quaternary-color: rgba(154, 157, 230, 0.8);
+    --paragraphFont: 'Open Sans', sans-serif;
+    --headerFont: 'Montserrat', sans-serif;
+    --otherFont: 'Roboto', sans-serif;
 }
 
 * {
@@ -11,9 +14,9 @@
     box-sizing: border-box;
 }
 
-body {
+/* body {
     background-color: var(--primary-color);
-}
+} */
 
 /* Header Styling */
 
@@ -22,13 +25,15 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
+    font-family: var(--headerFont);
 }
 
 header h1 {
-    /* background-color: var(--quaternary-color); */
+    background-color: var(--quaternary-color);
     padding: 5px 5px 5px 50px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 4vw;
 }
 
 header h1, header a {
@@ -36,7 +41,7 @@ header h1, header a {
 }
 
 header a {
-    color: var(--tertiary-color);
+    color: var(--primary-color);
     text-decoration: none;
 }
 
@@ -48,7 +53,7 @@ header nav ul {
 
 header nav {
     padding-right: 100px;
-    font-size: 20px;
+    font-size: 1.5vw;
 }
 
 header nav ul li a {
@@ -61,8 +66,8 @@ header nav ul li a {
 .mainImage {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: flex-end;
+    align-items: flex-end ;
     background-image: url(../images/heroImage.jpeg);
     background-size: 100%;
     width: auto;
@@ -70,8 +75,13 @@ header nav ul li a {
 }
 
 .mainImage h2 {
-    color: var(--tertiary-color);
-    font-size: 3rem;
+    color: var(--primary-color);
+    font-size: 3.5vw;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: var(--quaternary-color);
+    padding: 10px 5px;
+    font-family: var(--headerFont);
 }
 
 /* About Me Section Styling */
@@ -79,20 +89,34 @@ header nav ul li a {
 .aboutMe {
     display: flex;
     width: 90%;
-    margin: 10px auto;
+    margin: 30px auto;
     justify-content: space-evenly;
 }
 
 .aboutMe-header {
     box-sizing: border-box;
     flex-basis: 25%;
-    background-color: aqua;
-    margin: auto;
+    font-family: var(--headerFont);
+    display: flex;
+    justify-content: flex-start;
+    font-size: 2.5vw;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-end;
+    border-right: 5px solid var(--primary-color);
+    padding-right: 10px;
+}
+
+.aboutMe-header h2 {
+    color: var(--primary-color);
 }
 
 .aboutMe-paragraph {
     box-sizing: border-box;
     flex-basis: 70%;
-    background-color: burlywood;
+    /* background-color: burlywood; */
     margin: auto;
+    font-family: var(--paragraphFont);
+    color: var(--quaternary-color);
+    font-size: 1.5vw;
 }
