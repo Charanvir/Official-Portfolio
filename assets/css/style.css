@@ -31,7 +31,7 @@ header h1 {
     padding: 5px 5px 5px 50px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 3.5vw;
+    font-size: 50px;
     text-decoration: underline;
     text-underline-offset: 5px;
 }
@@ -53,7 +53,7 @@ header nav ul {
 
 header nav {
     padding-right: 100px;
-    font-size: 1.5vw;
+    font-size: 17;
 }
 
 header nav ul li a {
@@ -81,7 +81,7 @@ header nav ul li a:hover {
 
 .mainImage h2 {
     color: var(--primary-color);
-    font-size: 3.5vw;
+    font-size: 50px;
     margin-right: 20px;
     margin-bottom: 20px;
     padding: 10px 5px;
@@ -102,7 +102,7 @@ header nav ul li a:hover {
     font-family: var(--headerFont);
     display: flex;
     justify-content: flex-start;
-    font-size: 2.5vw;
+    font-size: 30px;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-end;
@@ -120,7 +120,7 @@ header nav ul li a:hover {
     margin: auto;
     font-family: var(--paragraphFont);
     color: var(--secondary-color);
-    font-size: 1.5vw;
+    font-size: 17px;
 }
 
 /* Styling for Project Section */
@@ -134,7 +134,7 @@ header nav ul li a:hover {
 .project-header {
     box-sizing: border-box;
     flex-basis: 25%;
-    font-size: 2.5vw;
+    font-size: 30px;
     display: flex;
     border-right: 5px solid var(--primary-color);
     padding-right: 10px;
@@ -286,7 +286,7 @@ header nav ul li a:hover {
     flex-basis: 25%;
     font-family: var(--headerFont);
     color: var(--primary-color);
-    font-size: 2.5vw;
+    font-size: 30px;
     border-right: 5px solid var(--primary-color);
     display: flex;
     flex-direction: column;
@@ -313,7 +313,7 @@ header nav ul li a:hover {
     color: var(--secondary-color);
     text-decoration: underline;
     text-underline-offset: 5px;
-    font-size: 1.5vw;
+    font-size: 17px;
 }
 
 .contactInfo-links ul li a:hover {
