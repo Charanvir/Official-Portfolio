@@ -154,7 +154,8 @@ header nav ul li a:hover {
 
 .mainProject {
     border: 5px solid var(--primary-color);
-    margin: 0 20px 20px 20px;   
+    margin: 0 20px 20px 20px;  
+    position: relative; 
 }
 
 .mainProject img {
@@ -163,8 +164,18 @@ header nav ul li a:hover {
     opacity: 75%;
 }
 
-.mainProject:hover {
-    opacity: 70%;
+.mainProject img:hover {
+    opacity: 50%;
+}
+
+.scoreKeeperTitle {
+    position: absolute;
+    top: 350px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+    font-size: 50px;
+    padding: 5px;
 }
 
 .twoProjects {
@@ -183,40 +194,82 @@ header nav ul li a:hover {
     height: 100%;
     border: 5px solid var(--primary-color);
     opacity: 75%;
-
 }
 
 .numberGuessing {
-    flex: 0 1 45%;
+    flex: 0 1 47%;
+    position: relative;
 }
 
-.numberGuessing:hover {
-    opacity: 70%;
+.numberGuessTitle {
+    position: absolute;
+    top: 100px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+    font-size: 25px;
+    padding: 2px;
+}
+
+.numberGuessing img:hover {
+    opacity: 50%;
 }
 
 .colorGenerator {
-    flex: 0 1 45%;
+    flex: 0 1 47%;
+    position: relative;
 }
 
-.colorGenerator:hover {
-    opacity: 70%;
+.colorTitle {
+    position: absolute;
+    top: 100px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+    font-size: 25px;
+    padding: 2px;
+}
+
+.colorGenerator img:hover {
+    opacity: 50%;
 }
 
 .bootstrap {
-    flex: 0 1 45%;
-
+    flex: 0 1 47%;
+    position: relative;
 }
 
-.bootstrap:hover {
-    opacity: 70%;
+.bootstrapTitle {
+    position: absolute;
+    top: 100px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+    font-size: 25px;
+    padding: 2px;
+}
+
+.bootstrap img:hover {
+    opacity: 50%;
 }
 
 .runBuddy {
-    flex: 0 1 45%;
+    flex: 0 1 47%;
+    position: relative;
 }
 
-.runBuddy:hover {
-    opacity: 70%;
+.runBuddyTitle {
+    position: absolute;
+    top: 100px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: 5px solid var(--primary-color);
+    font-size: 25px;
+    padding: 2px;
+}
+
+.runBuddy img:hover {
+    opacity: 50%;
 }
 
 
@@ -249,7 +302,7 @@ header nav ul li a:hover {
 
 .contactInfo-links ul {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .contactInfo-links ul li {
