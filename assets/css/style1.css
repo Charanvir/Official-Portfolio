@@ -287,6 +287,7 @@ header nav a:hover {
     }
     .mainImage h2 {
         padding: 0px;
+        font-size: 5vw;
     }
 
     .aboutMe {
@@ -301,6 +302,7 @@ header nav a:hover {
         border-bottom: 5px solid var(--primary-color);
         margin-bottom: 5px;
         padding: 0;
+        font-size: 3vw;
     }
 
     .aboutMe-paragraph {
@@ -311,19 +313,25 @@ header nav a:hover {
 
     .projects {
         flex-direction: column;
-        align-items: center;  
+        align-items: center; 
+        padding: 0px; 
+        justify-content: center;
     }
+
 
     .projectHeader {
         justify-content: space-between;
         border-bottom: 5px solid var(--primary-color);
         margin-bottom: 5px;  
         padding: 0px;
+        font-size: 3vw;
     }
 
     .allProjects {
         border: none;
         margin-top: 10px;
+        flex-basis: 100%;
+        padding: 0;
     }
 
     .mainProject h3 {
@@ -346,6 +354,8 @@ header nav a:hover {
         border-bottom: 5px solid var(--primary-color);
         margin-bottom: 5px;
         padding: 0;
+        font-size: 3vw;
+
     }
 
     .contactInfo-links {
@@ -354,6 +364,34 @@ header nav a:hover {
 
     .contactInfo-links a {
         margin: 0px 20px;
+        font-size: 2vw;
     }
 
+}
+
+@media screen and (max-width: 575px) {
+    
+    header nav ul li a {
+        font-size: 2.5vw;
+    }
+
+    .aboutMe-paragraph {
+        padding: 0px;
+    }
+
+    .contactInfo-links ul {
+        flex-wrap: wrap;
+    }
+
+    .contactInfo-links ul {
+        justify-content: space-evenly;
+    }
+
+.contactInfo-links ul li {
+    margin-bottom: 5px;
+}
+
+    .contactInfo-links ul li a {
+        text-underline-offset: 1px;
+    }
 }
