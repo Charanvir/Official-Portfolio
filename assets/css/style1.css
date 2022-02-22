@@ -13,7 +13,7 @@
 }
 
 body {
-    background-color: rgba(135, 206, 250, 0.7);
+    background-color: tan;
     display: flex;
     flex-direction: column;
 }
@@ -36,6 +36,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: var(--primary-color);
+    font-family: var(--headerFont);
 }
 
 header nav {
@@ -168,7 +169,10 @@ header nav a:hover {
     color: var(--secondary-color);
     background-color: var(--primary-color);
     width: fit-content;
-    font-size: 2vw;
+    font-size: 2.0vw;
+    padding: 5px;
+    border: 5px solid var(--secondary-color);
+    font-family: var(--otherFont);
 }
 
 .mainProject a {
@@ -203,6 +207,9 @@ header nav a:hover {
     background-color: var(--primary-color);
     width: fit-content;
     font-size: 1.5vw;
+    padding: 5px;
+    border: 5px solid var(--secondary-color);
+    font-family: var(--otherFont);
 }
 
 .twoProjects a {
@@ -267,4 +274,86 @@ header nav a:hover {
 
 .contactInfo-links ul li a:hover {
     text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    header {
+        flex-direction: column;
+    }
+
+    .mainImage {
+        justify-content: center;
+        align-items: center;
+    }
+    .mainImage h2 {
+        padding: 0px;
+    }
+
+    .aboutMe {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutMe-header {
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 5px solid var(--primary-color);
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    .aboutMe-paragraph {
+        border-left: none;
+        text-align: center;
+        font-size: 1.8vw;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;  
+    }
+
+    .projectHeader {
+        justify-content: space-between;
+        border-bottom: 5px solid var(--primary-color);
+        margin-bottom: 5px;  
+        padding: 0px;
+    }
+
+    .allProjects {
+        border: none;
+        margin-top: 10px;
+    }
+
+    .mainProject h3 {
+        margin: auto;
+    }
+
+    .twoProjects h3 {
+        margin: auto;
+    }
+
+    .contactInfo {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contactInfo-header {
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: 5px solid var(--primary-color);
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    .contactInfo-links {
+        border: none;
+    }
+
+    .contactInfo-links a {
+        margin: 0px 20px;
+    }
+
 }
