@@ -169,7 +169,7 @@ header nav a:hover {
 
 .twoProjects {
     display: flex;
-    max-width: 100%;
+    width: 90%;
     max-height: 100%;
     justify-content: space-between;
     margin: 1% 0;
@@ -186,7 +186,7 @@ header nav a:hover {
 }
 
 .singleProject {
-    max-width: 49%;
+    width: 49%;
 }
 
 
