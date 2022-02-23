@@ -271,6 +271,10 @@ header nav a:hover {
         font-size: 3vw;
     }
 
+    .aboutMe-header h2 {
+        margin: 0px 5px;
+    }
+
     .aboutMe-paragraph {
         border-left: none;
         text-align: center;
@@ -313,7 +317,10 @@ header nav a:hover {
         margin-bottom: 5px;
         padding: 0;
         font-size: 3vw;
+    }
 
+    .contactInfo-header h2 {
+        margin: 0px 5px;
     }
 
     .contactInfo-links {
