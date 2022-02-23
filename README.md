@@ -20,3 +20,6 @@ The following are Github repositories links for the projects included in this Po
 - Number Guessing Game: https://github.com/Charanvir/Number-Guessing-Game
 - Bootstrap Project: https://github.com/Charanvir/Bootstrap-Project
 - Run Buddy Project: https://github.com/Charanvir/run-buddy
+
+Below is a screenshot of my Portfolio:
+![Tux, the Linux mascot](/assets/images/Portfolio Screenshot.jpeg)
