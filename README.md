@@ -22,4 +22,4 @@ The following are Github repositories links for the projects included in this Po
 - Run Buddy Project: https://github.com/Charanvir/run-buddy
 
 Below is a screenshot of my Portfolio:
-![Alt text]("./assets/images/Portfolio Screenshot.jpeg" "Title")
+<img src="assets/images/Portfolio-Screenshot.jpeg" width="100" >
