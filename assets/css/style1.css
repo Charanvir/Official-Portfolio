@@ -1,6 +1,6 @@
 :root {
-    --primary-color: cornsilk;
-    --secondary-color: darkslategrey;
+    --primary-color: #fff8dc;
+    --secondary-color: #2f4f4f;
     --headerFont: 'Montserrat', sans-serif;
     --paragraphFont: 'Open Sans', sans-serif;
     --otherFont: 'Roboto', sans-serif;
@@ -149,34 +149,20 @@ header nav a:hover {
 /* Main Project Styling */
 
 .mainProject {
-    width: 100%;
+    width: 90%;
     max-height: 100%;
     margin-bottom: 1%;
-    display: flex;
     justify-content: center;
 }
 
 .mainProject img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     border: 5px solid var(--primary-color);
 }
 
 .mainProject a img:hover {
     opacity: 50%;
-}
-
-.mainProject h3 {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    width: fit-content;
-    font-size: 2.0vw;
-    padding: 5px;
-    border: 5px solid var(--secondary-color);
-    font-family: var(--otherFont);
-}
-
-.mainProject a {
-    text-decoration: none;
 }
 
 /* Other Projects Styling */
@@ -190,7 +176,8 @@ header nav a:hover {
 }
 
 .twoProjects img {
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
     border: 5px solid var(--primary-color);
 }
 
@@ -201,27 +188,6 @@ header nav a:hover {
 .singleProject {
     max-width: 49%;
 }
-
-.twoProjects h3 {
-    color: var(--secondary-color);
-    background-color: var(--primary-color);
-    width: fit-content;
-    font-size: 1.5vw;
-    padding: 5px;
-    border: 5px solid var(--secondary-color);
-    font-family: var(--otherFont);
-}
-
-.twoProjects a {
-    text-decoration: none;
-}
-
-
-
-
-
-
-
 
 
 /* Contact Info Styling */
@@ -334,14 +300,6 @@ header nav a:hover {
         padding: 0;
     }
 
-    .mainProject h3 {
-        margin: auto;
-    }
-
-    .twoProjects h3 {
-        margin: auto;
-    }
-
     .contactInfo {
         flex-direction: column;
         justify-content: center;
@@ -387,9 +345,9 @@ header nav a:hover {
         justify-content: space-evenly;
     }
 
-.contactInfo-links ul li {
+    .contactInfo-links ul li {
     margin-bottom: 5px;
-}
+    }
 
     .contactInfo-links ul li a {
         text-underline-offset: 1px;
